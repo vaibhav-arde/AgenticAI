@@ -9,3 +9,4 @@ arxiv
 PyMuPDF
 wikipedia
 langchain_openai
+langchain_ollama
