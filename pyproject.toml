@@ -20,5 +20,6 @@ dependencies = [
     "pypdf>=5.9.0",
     "python-dotenv>=1.1.1",
     "sentence-transformers>=5.0.0",
+    "streamlit>=1.47.1",
     "wikipedia>=1.4.0",
 ]
