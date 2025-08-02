@@ -14,3 +14,4 @@ sentence_transformers
 faiss-cpu
 langchain_chroma
 streamlit
+langchain_groq
