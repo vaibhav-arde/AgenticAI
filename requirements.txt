@@ -1,4 +1,7 @@
 langchain
+langchain-core
+langchain-community
+langgraph
 python-dotenv
 ipykernel
 langchain_community
