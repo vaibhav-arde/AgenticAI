@@ -22,3 +22,5 @@ fastapi
 langserve
 sse_starlette
 pydantic
+langgraph-cli[inmem]
+langgraph[dev]
