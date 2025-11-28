@@ -16,7 +16,7 @@ groq_api_key=os.getenv("GROQ_API_KEY")
 assert groq_api_key is not None, "GROQ_API_KEY not set"
 
 try:
-    model=ChatGroq(model="mixtral-8x7b-32768",groq_api_key=groq_api_key)
+    model=ChatGroq(model="openai/gpt-oss-120b",groq_api_key=groq_api_key)
 except Exception as e:
     raise RuntimeError(f"Failed to initialize Groq model: {e}")
 
