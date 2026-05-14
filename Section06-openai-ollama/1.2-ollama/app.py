@@ -22,12 +22,12 @@ prompt=ChatPromptTemplate.from_messages(
 )
 
 ## streamlit framework
-st.title("Langchain Demo With Gemma Model")
+st.title("Langchain Demo With Gemma4 Model")
 input_text=st.text_input("What question you have in mind?")
 
 
 ## Ollama Llama2 model
-llm=OllamaLLM(model="llama3.1:8b")
+llm=OllamaLLM(model="gemma4:31b-cloud")
 output_parser=StrOutputParser()
 chain=prompt|llm|output_parser
 
