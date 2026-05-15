@@ -31,4 +31,5 @@ dependencies = [
     "wikipedia>=1.4.0",
     "langchain-docling>=2.0.0",
     "graphviz>=0.21",
+    "langchain-google-genai>=4.2.2",
 ]
