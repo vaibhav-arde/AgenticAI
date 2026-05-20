@@ -18,7 +18,7 @@ dependencies = [
     "langchain-huggingface>=1.1.0",
     "langchain-ollama>=1.0.0",
     "langchain-openai>=1.1.0",
-    "langgraph>=1.0.3",
+    "langgraph[dev]>=1.0.3",
     "langgraph-cli[inmem]>=0.4.7",
     "langserve>=0.3.3",
     "pydantic>=2.12.4",
@@ -32,4 +32,7 @@ dependencies = [
     "langchain-docling>=2.0.0",
     "graphviz>=0.21",
     "langchain-google-genai>=4.2.2",
+    "langchainhub>=0.1.21",
+    "deepagents>=0.6.2",
+    "tavily-python>=0.7.24",
 ]

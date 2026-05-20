@@ -25,3 +25,5 @@ pydantic
 langgraph-cli[inmem]
 langgraph[dev]
 langchainhub
+deepagents
+tavily-python
